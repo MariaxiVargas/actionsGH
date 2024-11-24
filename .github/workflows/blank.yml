@@ -34,3 +34,10 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+  other:
+    runs-on: ubuntu-latest
+
+    steps:   
+      - name: LS
+        run: ls -al
